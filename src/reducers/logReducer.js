@@ -4,6 +4,7 @@ import {
 	DELETE_LOG,
 	GET_LOGS,
 	LOGS_ERROR,
+	SEARCH_LOGS,
 	SET_CURRENT,
 	SET_LOADING,
 	UPDATE_LOG,
@@ -42,6 +43,11 @@ export default (state = initialState, action) => {
 				logs: state.logs.map((log) =>
 					log.id === action.payload.id ? action.payload : log
 				),
+			};
+		case SEARCH_LOGS:
+			return {
+				...state,
+				logs: action.payload,
 			};
 		case SET_CURRENT:
 			return {
