@@ -1,18 +1,18 @@
 {
   "logs": [
     {
-      "message": "Hard drive failed in workstation 002",
-      "attention": true,
-      "tech": "Sara Wilson",
-      "date": "2022-01-30T12:17:32.935Z",
-      "id": 2
+      "id": 2,
+      "message": " Fixed Hard drive failed in workstation 002",
+      "attention": false,
+      "tech": "John Doe",
+      "date": "2022-01-31T09:38:16.907Z"
     },
     {
+      "id": 3,
       "message": "1122 wireless down",
-      "attention": false,
-      "tech": "Sam Smith",
-      "date": "2022-01-30T12:18:02.616Z",
-      "id": 3
+      "attention": true,
+      "tech": "John Doe",
+      "date": "2022-01-31T09:38:27.547Z"
     },
     {
       "message": "fixed 002",
